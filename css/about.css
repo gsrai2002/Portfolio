@@ -1,0 +1,27 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #323946;
+    padding: 0px 9%;
+    min-height: 88vh;
+}
+
+.about-image img{
+    width: 35vw;
+}
+
+.about-content h3{
+    font-size: 30px;
+}
+
+.heading{
+    text-align: left;
+    font-size: 40px;
+}
+
+.about-content p{
+    font-size: 20px;
+    margin: 15px 0;
+}

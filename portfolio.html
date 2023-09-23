@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skill.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -21,16 +23,16 @@
         <i class="fa-solid fa-bars menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
     <!-- Home section design -->
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's me</h3>
             <h1>Ghanshyam Rai</h1>
@@ -40,6 +42,7 @@
             <div class="social-media">
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
 
             <a href="#" class="button">Download CV</a>
@@ -49,5 +52,49 @@
             <img src="images/home.png" >
         </div>
     </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="images/about.png">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam eum minus minima velit molestiae distinctio adipisci accusantium ut expedita! Quae sint impedit deleniti minima saepe? Accusantium accusamus error nulla magnam sunt? Quasi, rem ratione eum, dolor debitis suscipit rerum impedit illo, qui dolorem error sit saepe?</p>
+            <a href="#" class="button">Read More</a>
+        </div>
+    </section>
+
+    <!-- skill section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading skills-heading">My<span> Skills</span></h2>
+        <div class="skills-info">
+            <div class="skills-content">
+                
+                <div class="progress">
+                    <h3>HTML <span>90%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>CSS <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>JavaScript <span>65%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+
+                <div class="progress">
+                    <h3>C++ <span>75%</span></h3>
+                    <div class="bar"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
