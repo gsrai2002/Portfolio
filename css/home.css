@@ -1,6 +1,4 @@
 .home{
-    min-height: 100vh;
-    padding: 90px 9% 30px;
     display: flex;
     justify-content: center;
     align-items: center;

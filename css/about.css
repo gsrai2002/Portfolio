@@ -4,8 +4,6 @@
     align-items: center;
     gap: 30px;
     background-color: #323946;
-    padding: 0px 9%;
-    min-height: 88vh;
 }
 
 .about-image img{
@@ -14,6 +12,10 @@
 
 .about-content h3{
     font-size: 30px;
+}
+
+.about-heading span{
+    color: #0ef;
 }
 
 .heading{

@@ -1,12 +1,11 @@
 .skills{
     min-width: auto;
-    padding: 7rem 0;
+    padding: 8rem 0;
     background-color: #1f242d;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 88vh;
 }
 
 .skills-heading span{

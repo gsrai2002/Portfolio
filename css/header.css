@@ -18,6 +18,11 @@ body{
     color: #fff;
 }
 
+section{
+    min-height: 100vh;
+    padding: 85px 9% 30px;
+}
+
 header{
     position: fixed;
     top: 0;
