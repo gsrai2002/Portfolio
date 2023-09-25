@@ -37,3 +37,16 @@
 textarea{
     resize: none;
 }
+
+@media (max-width: 820px){
+    .input-box input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px){
+    .input-box input, textarea{
+        font-size: 17px;
+        padding: 17px;
+    }
+}

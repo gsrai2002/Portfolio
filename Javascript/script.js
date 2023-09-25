@@ -1,3 +1,12 @@
+//Toggle icon navbar
+let menuIcon = document.querySelector('.menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.addEventListener('click', () =>{
+    menuIcon.classList.toggle('fa-x');
+    navbar.classList.toggle('active');
+});
+
 // Active Nav link on scroll
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
@@ -21,3 +30,9 @@ function highlightActive(){
         }
     });
 }
+
+//Remove the toggle icon and navbar when click navbar link (scroll)
+window.addEventListener('scroll', () =>{
+    menuIcon.classList.remove('fa-x');
+    navbar.classList.remove('active');
+});

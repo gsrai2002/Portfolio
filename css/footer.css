@@ -28,3 +28,30 @@
 .footer-iconTop a i{
     color: #323946  ;
 }
+
+@media (max-width: 470px){
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer-text p{
+        text-align: center;
+        margin-top: 20px;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 385px){
+    .footer{
+        padding: 10px 0;
+    }
+    .footer-text p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 290px){
+    .footer-text p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
