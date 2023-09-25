@@ -36,3 +36,5 @@ window.addEventListener('scroll', () =>{
     menuIcon.classList.remove('fa-x');
     navbar.classList.remove('active');
 });
+
+//Scroll reveal
