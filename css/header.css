@@ -9,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* By adding this github pages is working properly in responsive view */
 body{
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +72,7 @@ header{
         padding: 10px 3%;
     }
     section{
-        padding: 80px 3% 30px;
+        padding: 80px 7% 30px;
     }
     .contact{
         min-height: auto;
