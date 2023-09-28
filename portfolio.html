@@ -43,12 +43,12 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ad? Consequuntur reiciendis tempora perferendis est eveniet. Fugiat omnis eligendi ducimus.</p>
 
             <div class="social-media">
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/gsrai2002" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/ghanshyam-rai-27b62322a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/gsrai2002" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
 
-            <a href="#" class="button download-button">Download CV</a>
+            <a href="./resume_ghanshyam.pdf" download="Ghanshyam_resume" class="button download-button">Download Resume</a>
         </div>
 
         <div class="home-image">
@@ -169,18 +169,21 @@
     <section class="contact" id="contact">
         <h2 class="heading contact-heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/01e570f73424b9867add40a100eb386c" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email Address" class="email" required>
             </div>
 
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="Phone Number" placeholder="Mobile Number">
+                <input type="text" name="Email Subject" placeholder="Email Subject" required>
             </div>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://gsrai2002.github.io/Portfolio/portfolio.html">
             <input type="submit" value="Send Message" class="button">
         </form>
     </section>
@@ -198,6 +201,9 @@
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Send E-mail from JavaScript -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="Javascript/script.js"></script>
 </body>
