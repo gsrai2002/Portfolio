@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
     <title>Portfolio</title>
+    <link rel="icon" href="images/portfolio.png" sizes="96x96" type="image/png">
 </head>
 <body>
 
@@ -29,7 +30,7 @@
             <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio">Project</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -40,14 +41,14 @@
             <h3>Hello, It's me</h3>
             <h1>Ghanshyam Rai</h1>
             <h3>And I'm a <span>Frontend Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, ad? Consequuntur reiciendis tempora perferendis est eveniet. Fugiat omnis eligendi ducimus.</p>
+            <p>I have a profound passion for crafting user-friendly and visually captivating websites. I believe in the power of code to turn creative ideas into functional and beautiful digital experiences.</p>
 
             <div class="social-media">
                 <a href="https://twitter.com/gsrai2002" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/ghanshyam-rai-27b62322a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/gsrai2002" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
-
+ 
             <a href="./resume_ghanshyam.pdf" download="Ghanshyam_resume" class="button download-button">Download Resume</a>
         </div>
 
@@ -64,9 +65,15 @@
 
         <div class="about-content">
             <h2 class="heading about-heading">About <span>Me</span></h2>
-            <h3>Frontend Developer!</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam eum minus minima velit molestiae distinctio adipisci accusantium ut expedita! Quae sint impedit deleniti minima saepe? Accusantium accusamus error nulla magnam sunt? Quasi, rem ratione eum, dolor debitis suscipit rerum impedit illo, qui dolorem error sit saepe?</p>
-            <a href="#" class="button">Read More</a>
+            <p> Hello there! I'm Ghanshyam Rai 
+                <br><br> My journey into the world of frontend development began from July 2023. Since then, I've been on a relentless pursuit of knowledge and improvement.
+                <span class="dots"></span>
+                <span class="more"><br><br> I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
+                <br><br> I'm a firm believer in the power of teamwork and open communication. I thrive in collaborative environments and want to work closely with designers, backend developers, and project managers to turn concepts into reality. 
+                <br><br>I'm a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. I like to develop expertise in a number of areas over the course of my life and career.
+                </span>
+            </p>
+            <a onclick="changeMore();" class="button read-more">Read more</a>
         </div>
     </section>
 
@@ -76,22 +83,27 @@
         <div class="skills-content">
             
             <div class="progress">
-                <h3>HTML <span>90%</span></h3>
+                <h3>HTML <span>95%</span></h3>
                 <div class="bar"><span></span></div>
             </div>
 
             <div class="progress">
-                <h3>CSS <span>80%</span></h3>
+                <h3>CSS <span>90%</span></h3>
                 <div class="bar"><span></span></div>
             </div>
 
             <div class="progress">
-                <h3>JavaScript <span>65%</span></h3>
+                <h3>JavaScript <span>85%</span></h3>
                 <div class="bar"><span></span></div>
             </div>
 
             <div class="progress">
-                <h3>GitHub <span>75%</span></h3>
+                <h3>React <span>20%</span></h3>
+                <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress">
+                <h3>GitHub <span>95%</span></h3>
                 <div class="bar"><span></span></div>
             </div>
         </div>
@@ -107,9 +119,9 @@
                 <img src="images/portfolio1.jpg">
 
                 <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quos.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h4>Weather App</h4>
+                    <p>Stay informed with our weather app for accurate forecasts and real-time updates.</p>
+                    <a href="https://gsrai2002.github.io/Weather-App/weather.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
 
@@ -201,9 +213,6 @@
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- Send E-mail from JavaScript -->
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="Javascript/script.js"></script>
 </body>

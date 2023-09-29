@@ -28,6 +28,14 @@
     margin: 15px 0;
 }
 
+.more{
+    display: none;
+}
+
+.read-more{
+    cursor: pointer;
+}
+
 @media (max-width: 820px){
     .about{
         flex-direction: column-reverse;
