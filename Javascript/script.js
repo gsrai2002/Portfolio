@@ -49,21 +49,3 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-image, .portfolio-container, .skills-content, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-image', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
-
-//Read more button
-function changeMore(){
-    let dots = document.querySelector('.dots');
-    let moreText  = document.querySelector('.more');
-    let buttonText = document.querySelector('.read-more');
-
-    if(dots.style.display === 'none'){
-        dots.style.display = 'inline';
-        moreText.style.display = 'none';
-        buttonText.innerHTML = 'Read more';
-    }
-    else{
-        dots.style.display = 'none';
-        moreText.style.display = 'inline';
-        buttonText.innerHTML = 'Read less';
-    }
-}

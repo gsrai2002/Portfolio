@@ -69,7 +69,7 @@
 }
 
 .home-image img{
-    width: 35vw;
+    width: 25vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
