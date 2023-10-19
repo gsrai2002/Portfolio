@@ -7,6 +7,11 @@ menuIcon.addEventListener('click', () =>{
     navbar.classList.toggle('active');
 });
 
+var img = document.createElement("img");
+img.src = "images/home.png";
+var src = document.querySelector('.home-image');
+src.appendChild(img);
+
 // Active Nav link on scroll
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
